@@ -4,6 +4,7 @@ import Button from "../components/Button";
 import Card from "../components/Card";
 import Title from "../components/Title";
 import Section from "../components/Section";
+import heroBarbearia from "../assets/hero-barbearia.png";
 
 function Home() {
   return (
@@ -25,9 +26,9 @@ function Home() {
 
         {/* Conteúdo */}
 
-        <div className="relative mx-auto flex min-h-[calc(100vh-78px)] w-[92%] max-w-7xl items-center">
+        <div className="relative z-10 mx-auto grid min-h-[calc(100vh-78px)] w-[92%] max-w-7xl items-center gap-12 py-10 lg:grid-cols-[0.92fr_1.08fr] lg:gap-16 lg:py-0">
 
-          <div className="max-w-3xl py-20">
+          <div className="max-w-3xl py-10 lg:py-20">
 
             <div className="mb-6 flex items-center gap-3">
               <span className="h-px w-10 bg-dragon-beige" />
@@ -109,17 +110,47 @@ function Home() {
 
           </div>
 
-        </div>
+          {/* Ambiente da barbearia */}
 
-        {/* Indicador inferior */}
+          <div className="relative min-h-[360px] sm:min-h-[460px] lg:min-h-[560px]">
 
-        <div className="absolute bottom-8 left-1/2 hidden -translate-x-1/2 flex-col items-center gap-3 text-center sm:flex">
+            <div className="absolute right-0 top-10 h-44 w-44 rounded-full bg-dragon-beige/15 blur-3xl lg:-right-6" />
 
-          <span className="text-[10px] uppercase tracking-[0.3em] text-stone-400">
-            Explore
-          </span>
+            <div className="absolute -bottom-5 -left-5 h-24 w-24 rounded-bl-[26px] border-b-2 border-l-2 border-dragon-beige/60" />
 
-          <div className="h-10 w-px bg-gradient-to-b from-dragon-beige to-transparent" />
+            <figure className="group relative h-[360px] overflow-hidden rounded-[28px] border border-dragon-beige/35 bg-dragon-brownDark/70 p-2 shadow-[0_30px_90px_rgba(0,0,0,0.55)] sm:h-[460px] lg:h-[560px]">
+
+              <img
+                src={heroBarbearia}
+                alt="Interior rústico e acolhedor da barbearia Dragão Barbado"
+                className="h-full w-full rounded-[21px] object-cover object-center transition duration-700 group-hover:scale-[1.03]"
+              />
+
+              <div className="pointer-events-none absolute inset-2 rounded-[21px] bg-[linear-gradient(135deg,rgba(11,8,6,0.32),transparent_42%,rgba(11,8,6,0.52))]" />
+
+              <div className="pointer-events-none absolute inset-x-2 bottom-2 h-1/2 rounded-b-[21px] bg-gradient-to-t from-[#0D0D0D]/90 via-[#0D0D0D]/35 to-transparent" />
+
+              <figcaption className="absolute inset-x-8 bottom-8 flex items-end justify-between gap-4 sm:inset-x-10 sm:bottom-10">
+
+                <div>
+                  <span className="text-[10px] font-bold uppercase tracking-[0.35em] text-dragon-beige">
+                    O ambiente Dragão
+                  </span>
+
+                  <p className="mt-2 max-w-[230px] text-sm leading-relaxed text-stone-200 sm:text-base">
+                    Tradição, personalidade e cuidado em cada detalhe.
+                  </p>
+                </div>
+
+                <span className="hidden h-12 w-12 shrink-0 items-center justify-center rounded-full border border-dragon-beige/50 bg-dragon-black/40 text-lg text-dragon-beige backdrop-blur-sm sm:flex">
+                  DB
+                </span>
+
+              </figcaption>
+
+            </figure>
+
+          </div>
 
         </div>
 
@@ -130,7 +161,7 @@ function Home() {
           INTRODUÇÃO
       ===================================================== */}
 
-      <Section>
+      <Section className="border-[#E3D6C2]">
 
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
 
@@ -228,7 +259,7 @@ function Home() {
           SERVIÇOS
       ===================================================== */}
 
-      <Section dark>
+      <Section dark className="border-[#3A2920]">
 
         <Title
           light
@@ -303,7 +334,7 @@ function Home() {
           EXPERIÊNCIA
       ===================================================== */}
 
-      <section className="bg-dragon-brownDark">
+      <section className="border-t border-[#3A2920] bg-dragon-brownDark">
 
         <div className="mx-auto grid w-full max-w-7xl lg:grid-cols-2">
 
@@ -410,7 +441,7 @@ function Home() {
           DEPOIMENTOS
       ===================================================== */}
 
-      <Section>
+      <Section className="!border-[#D8C7AF] !bg-[#E9DFD0]">
 
         <Title
           subtitle="Quem passa pela Dragão Barbado sabe a diferença."
@@ -507,7 +538,7 @@ function Home() {
           CTA
       ===================================================== */}
 
-      <section className="relative overflow-hidden bg-dragon-black">
+      <section className="relative overflow-hidden border-t border-[#3A2920] bg-dragon-black">
 
         <div className="absolute inset-0 bg-gradient-to-r from-dragon-black via-dragon-brownDark to-dragon-black opacity-80" />
 

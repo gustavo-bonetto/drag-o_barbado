@@ -49,7 +49,7 @@ function Sobre() {
           <div className="absolute -right-24 -top-32 h-80 w-80 rounded-full border border-[#D6B892]/20" />
           <div className="absolute -bottom-48 -left-20 h-96 w-96 rounded-full border border-[#8B5E3C]/20" />
 
-          <div className="relative mx-auto grid w-[92%] max-w-7xl items-center gap-12 py-20 sm:py-24 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20 lg:py-28">
+          <div className="relative mx-auto grid w-[92%] max-w-7xl items-center gap-12 py-14 sm:py-16 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20 lg:py-20">
             <div>
               <div className="mb-6 flex items-center gap-3">
                 <span className="h-px w-10 bg-[#D6B892]" />
@@ -91,7 +91,7 @@ function Sobre() {
           </div>
         </section>
 
-        <section id="historia" className="bg-[#F5F2ED] py-16 sm:py-20 lg:py-24">
+        <section id="historia" className="border-t border-[#E3D6C2] bg-[#F5F2ED] py-12 sm:py-14 lg:py-16">
           <div className="mx-auto grid w-[92%] max-w-7xl gap-12 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
             <div>
               <span className="text-xs font-bold uppercase tracking-[0.3em] text-[#8B5E3C]">
@@ -123,7 +123,7 @@ function Sobre() {
           </div>
         </section>
 
-        <section className="bg-gradient-to-br from-[#0D0D0D] via-[#171513] to-[#2A1A14] py-16 text-white sm:py-20 lg:py-24">
+        <section className="border-t border-[#3A2920] bg-gradient-to-br from-[#0D0D0D] via-[#171513] to-[#2A1A14] py-12 text-white sm:py-14 lg:py-16">
           <div className="mx-auto grid w-[92%] max-w-7xl gap-6 md:grid-cols-2">
             <article className="border border-white/10 bg-black/20 p-8 sm:p-10">
               <span className="text-xs font-bold uppercase tracking-[0.3em] text-[#D6B892]">Missão</span>
@@ -143,7 +143,7 @@ function Sobre() {
           </div>
         </section>
 
-        <section id="valores" className="bg-[#F5F2ED] py-16 sm:py-20 lg:py-24">
+        <section id="valores" className="border-t border-[#D8C7AF] bg-[#E9DFD0] py-12 sm:py-14 lg:py-16">
           <div className="mx-auto w-[92%] max-w-7xl">
             <div className="mb-12 max-w-2xl">
               <span className="text-xs font-bold uppercase tracking-[0.3em] text-[#8B5E3C]">O que nos guia</span>
@@ -163,7 +163,7 @@ function Sobre() {
           </div>
         </section>
 
-        <section id="equipe" className="bg-[#2A1A14] py-16 text-white sm:py-20 lg:py-24">
+        <section id="equipe" className="border-t border-[#3A2920] bg-[#2A1A14] py-12 text-white sm:py-14 lg:py-16">
           <div className="mx-auto grid w-[92%] max-w-7xl items-start gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
             <div>
               <span className="text-xs font-bold uppercase tracking-[0.3em] text-[#D6B892]">Equipe — Men's Caves</span>

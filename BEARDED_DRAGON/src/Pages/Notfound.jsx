@@ -8,7 +8,7 @@ function Notfound() {
     <div className="flex min-h-screen flex-col bg-dragon-black">
       <NavBar />
 
-      <main className="flex flex-1 items-center justify-center px-6 py-24">
+      <main className="flex flex-1 items-center justify-center border-t border-[#3A2920] px-6 py-16 sm:py-20">
         <div className="w-full max-w-3xl text-center">
 
           <span className="text-8xl font-black leading-none text-dragon-beige sm:text-9xl">

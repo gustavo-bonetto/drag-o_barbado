@@ -227,21 +227,8 @@ function NavBar() {
           </a>
 
           <a
-leleo3
             href="/notfound"
             onClick={closeMenu}
-            href="/contato"
-            onClick={(event) => {
-              closeMenu();
-              if (window.location.pathname === "/") {
-                event.preventDefault();
-                const target = document.getElementById("contato");
-                if (target) {
-                  target.scrollIntoView({ behavior: "smooth", block: "start" });
-                }
-              }
-            }}
-main
             className="
               inline-flex
               items-center

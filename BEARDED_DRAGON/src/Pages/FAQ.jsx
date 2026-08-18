@@ -17,7 +17,7 @@ function FAQ() {
 
       {/* CABEÇALHO */}
 
-      <section className="bg-dragon-black py-24">
+      <section className="border-t border-[#3A2920] bg-dragon-black py-16 sm:py-20">
         <div className="mx-auto w-[92%] max-w-5xl text-center">
           <span className="text-xs font-bold uppercase tracking-[0.3em] text-dragon-beige">
             Tire suas dúvidas
@@ -39,7 +39,7 @@ function FAQ() {
 
       {/* PERGUNTAS */}
 
-      <main className="mx-auto w-[92%] max-w-4xl py-16 sm:py-20">
+      <main className="mx-auto w-[92%] max-w-4xl border-x border-[#E3D6C2] bg-[#E9DFD0] px-[4%] py-12 sm:py-14">
         <div className="space-y-4">
           {faqData.map((item, index) => {
             const isOpen = openIndex === index;
@@ -100,7 +100,7 @@ function FAQ() {
 
         {/* CONTATO */}
 
-        <div className="mt-16 border border-[#3A2920] bg-gradient-to-br from-[#171513] to-[#2A1A14] p-8 text-center sm:p-10">
+        <div className="mt-12 border border-[#3A2920] bg-gradient-to-br from-[#171513] to-[#2A1A14] p-8 text-center sm:p-10">
           <span className="text-xs font-bold uppercase tracking-[0.3em] text-dragon-beige">
             Ainda tem dúvidas?
           </span>

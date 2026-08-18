@@ -95,7 +95,7 @@ function Produtos() {
       <NavBar />
 
       {/* Header da Página */}
-      <section className="relative bg-dragon-brownDark py-16 text-center">
+      <section className="relative border-t border-[#3A2920] bg-dragon-brownDark py-12 text-center sm:py-14">
         <div className="mx-auto w-[92%] max-w-7xl">
           <span className="text-xs font-bold uppercase tracking-[0.35em] text-dragon-beige">
             Cuidado Masculino

@@ -11,12 +11,13 @@ function Section({
       id={id}
       className={`
         w-full
-        py-16
-        sm:py-20
-        lg:py-24
+        border-t
+        py-12
+        sm:py-14
+        lg:py-16
         ${
           dark
-            ? "bg-gradient-to-br from-[#0D0D0D] via-[#171513] to-[#2A1A14] text-white"
+            ? "border-[#3A2920] bg-gradient-to-br from-[#0D0D0D] via-[#171513] to-[#2A1A14] text-white"
             : "bg-[#F5F2ED] text-[#0D0D0D]"
         }
         ${className}

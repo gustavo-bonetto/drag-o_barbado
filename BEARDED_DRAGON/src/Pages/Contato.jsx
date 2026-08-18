@@ -45,7 +45,7 @@ export default function Contato() {
           <div className="absolute -right-24 -top-32 h-80 w-80 rounded-full border border-[#D6B892]/20" />
           <div className="absolute -bottom-48 -left-16 h-96 w-96 rounded-full border border-[#8B5E3C]/20" />
 
-          <div className="relative mx-auto w-[92%] max-w-7xl py-20 sm:py-24 lg:py-28">
+          <div className="relative mx-auto w-[92%] max-w-7xl py-14 sm:py-16 lg:py-20">
             <div className="mx-auto max-w-3xl text-center">
               <div className="mb-6 flex items-center justify-center gap-3">
                 <span className="h-px w-10 bg-[#D6B892]" />
@@ -66,7 +66,7 @@ export default function Contato() {
           </div>
         </section>
 
-        <section className="py-16 sm:py-20 lg:py-24">
+        <section className="border-t border-[#E3D6C2] bg-[#E9DFD0] py-12 sm:py-14 lg:py-16">
           <div className="mx-auto grid w-[92%] max-w-7xl gap-8 lg:grid-cols-[0.95fr_1.05fr] lg:gap-10">
             <div className="rounded-none border border-[#E3D6C2] bg-white p-8 shadow-[0_15px_35px_rgba(0,0,0,0.04)] sm:p-10">
               <span className="text-xs font-bold uppercase tracking-[0.3em] text-[#8B5E3C]">
